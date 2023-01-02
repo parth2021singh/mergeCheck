@@ -1,0 +1,17 @@
+button {
+height:40px;
+color:red;
+background-color:yellow;
+margin-left:10px;
+cursor:pointer
+}
+
+input{
+    height:40px;
+    width:200px;
+    color:red;
+    background-color:yellow
+}
+h2{
+color:royalblue
+}
