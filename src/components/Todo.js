@@ -16,7 +16,7 @@ const Todo = () => {
   return (
     <div>
       <h2 >Todo List App</h2>
-      <input type="text" placeholder='Add items to list...'  value={inputData} onChange={(e)=>setInputData(e.target.value)}/>
+      <input type="text" placeholder='Add items to list1...'  value={inputData} onChange={(e)=>setInputData(e.target.value)}/>
       <span>
       <button onClick={()=> dispatch(addTodo(inputData),setInputData(""))}>Add</button>
       </span>
